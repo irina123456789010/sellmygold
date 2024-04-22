@@ -992,7 +992,17 @@ border-radius: 7%;}
   background: var(--primary-color);
   color: var(--white-color);
 }
-
+.footter-section-without-form {
+  background-color: #000000;
+  text-align: center;
+}
+@media screen and (min-width: 992px) {
+  .footter-section-without-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
 
 /*---------------------------------------
   RESPONSIVE STYLES               
